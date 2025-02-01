@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(15, 112, 218, 1), rgba(0, 122, 255, 1));
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 418.42px;
+    height: 418.42px;
+
+}
+
+
+.picture img {
+    width: 310.46px;
+    height: 444.55px;
+    justify-content: center;
+}
+
+.dot-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.29px;
+    margin-top: 40px;
+    width: 47.28px;
+    height: 14.11px;
+}
+
+.dot {
+    width: 7.06px;
+    height: 7.06px;
+    border: 0.71px rgba(255, 255, 255, 1);
+}
+
+
+
+#dob {
+    color: transparent;
+    caret-color: black;
+}
+
+#dob:focus {
+    color: black;
+}
+
+#dob:valid {
+    color: black;
+}
+
+
+
+
+.forgot-password {
+    display: flex;
+    height: 14px;
+    font-family: poppins;
+    padding-right: 0.5rem;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: rgba(0, 122, 255, 1);
+
+
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    color: rgba(0, 122, 255, 1);
+
+}
+
+
+
+label a {
+    text-decoration: none;
+    color: rgba(0, 122, 255, 1);
+
+}
+
+label a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 527.79px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 240px;
+    height: 33.87px;
+    border-radius: 3.53px 0px 0px 0px;
+    font-family: Poppins;
+    font-size: 9.88px;
+    font-weight: 600;
+    line-height: 14.82px;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    border: none;
+}
+
+.create-account {
+    background-color: rgba(0, 122, 255, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.create-account:hover {
+    background-color: rgba(0, 122, 255, 0.8);
+}
+
+
+.google-signin {
+    background-color: rgba(45, 55, 72, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+
+.google-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14.11px;
+    height: 14.11px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.google-signin:hover {
+    background-color: rgba(45, 55, 72, 0.8);
+}
+
+.log-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    width: 527.79px;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.83px;
+    letter-spacing: -0.02em;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: rgba(0, 122, 255, 0.8);
+    padding-left: 4px;
+}
+
+.log-in a:hover {
+    text-decoration: underline;
+    color: rgba(0, 122, 255, 1);
+}
+
+.form-footer {
+    display: flex;
+    width: Hug (198.98px)px;
+    height: Hug (28.22px)px;
+    gap: 8.47px;
+    margin-top: 50px;
+     padding-top: 1rem;
+}
+
+.store-buttons{
+    display: block;
+    width: 95.26px;
+height: 28.22px;
+color: black;
+transition: transform 0.3s;
+}
+
+.store-buttons img:hover{
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .signup-form {
+        width: 70%;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signup-form {
+        width: 80%; 
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;  
+    }
+
+    .signup-form {
+        width: 90%;  
+        padding: 15px;
+    }
+
+    .signup-form input, .signup-form button {
+        width: 100%;  
+        padding: 10px;
+    }
+}
