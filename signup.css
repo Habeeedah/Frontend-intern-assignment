@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 .picture {
     display: flex;
     justify-content: center;
@@ -41,6 +45,19 @@
     height: 7.06px;
     border: 0.71px rgba(255, 255, 255, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -82,6 +99,8 @@
     color: rgba(0, 122, 255, 1);
 
 }
+
+
 
 
 

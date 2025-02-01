@@ -1,6 +1,6 @@
 function SubmitForm() {
 
-    // My custom code here
+    // Your custom code here
     console.log('Submit button clicked!');
 
     // Get input values
